@@ -1914,7 +1914,7 @@ background: #eee;
   margin: auto;
   width: 13rem;
   height: 13rem;
-  background-color: #CAD8FF;
+  background-color: var(--accent-color);
   border-radius: 50%;
 }
 
