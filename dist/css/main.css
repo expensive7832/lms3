@@ -2035,6 +2035,10 @@ background: #eee;
 }
 
 
+.owl-item.active{
+  width: 13%!important;
+}
+
 
 @media(min-width: 480.6px) and (max-width: 575.5px) {
   .owl-carousel .owl-item .card .name {
@@ -2047,4 +2051,8 @@ background: #eee;
       left: 30%;
   }
 }
+
+
+
+
 
