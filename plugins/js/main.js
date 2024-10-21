@@ -1,17 +1,8 @@
-/**
-* Template Name: Mentor
-* Template URL: https://bootstrapmade.com/mentor-free-education-bootstrap-theme/
-* Updated: Aug 07 2024 with Bootstrap v5.3.3
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
 (function() {
     "use strict";
   
-    /**
-     * Apply .scrolled class to the body as the page is scrolled down
-     */
+
     function toggleScrolled() {
       const selectBody = document.querySelector('body');
       const selectHeader = document.querySelector('#header');
@@ -158,3 +149,13 @@
   });
   
   })();
+
+let sliders = document.querySelectorAll(".hero");
+let index = 0;
+
+
+setInterval(function(){ 
+  sliders[index].classList.remove("active") 
+  index = (index + 1) % sliders.length
+  sliders[index].classList.add("active") 
+}, 6000)
